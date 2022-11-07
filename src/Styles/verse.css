@@ -1,0 +1,126 @@
+*{
+    margin: 0ex;
+    
+}
+
+
+.summary{
+  
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;    
+    padding: 30px;   
+    color:rgb(26, 24, 18);  
+    font-weight: 400;
+    background-image:linear-gradient(rgba(224, 238, 199, 0.664),rgba(224, 238, 199, 0.664)),url('../media/logo2.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: relative;
+
+
+    
+    /* height: max-content;
+    color:rgb(240, 112, 8);    
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;    
+    padding: 30px; 
+    width:700px;
+    background-position: center;
+    background-size: cover; */
+    
+        
+    
+}
+.top{
+    font-weight: 500;
+    font-size: 30px;
+    text-align: left;    
+    padding: 30px;   
+    color:rgb(247, 240, 218);  
+    font-weight: 400;
+    background-color: rgb(247, 121, 75);
+    margin-top: 20px;
+    margin-bottom: -20px;
+    
+}
+.home_pg{
+    
+    z-index: -1;
+    margin-top: 30px;
+       
+    background-position: center;
+    background-size: cover;
+   
+    
+   
+
+
+}
+
+.Home{
+    z-index: 1;
+}
+
+
+.slok{
+    background-color: rgb(245, 233, 233);    
+    width:700px;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;    
+    padding: 30px;    
+    color: #f14418;
+}
+
+.author{
+    margin-left: 250px;
+    font-size: 15px;
+    font-weight: 400;
+    color: red;
+
+}
+
+
+
+
+  @media screen and (max-width:540px){
+      .summary{
+          width: fit-content;
+          font-size: 20px;
+          font-weight: 300;
+          
+      }
+    .slok{
+         width: fit-content;
+          font-size: 20px;
+          font-weight: 300;
+          padding: 10px;
+
+    }
+    .chapter_inp{
+        width: 300px;
+        font-size: 12px;
+        margin-left: 30px;
+    }
+    .translation{
+        font-size: 20px;
+        margin-right: 20px;
+    }
+    .author{
+        margin-left: 200px;
+        font-size: 10px;
+    }
+    .heading{
+        margin-left: 50px;
+    }
+    .chapter_form{
+        display: flex;
+        flex-direction: column;
+    }
+  }
+/* @media screen and (max-width:1000px) {
+    .heading{
+        margin-left: 200px;
+    }
+} */

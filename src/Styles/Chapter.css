@@ -1,0 +1,95 @@
+*{
+    margin: 0ex;
+
+}
+/* .input_chapter{
+   
+    height: 40px;
+    border-radius: 4px;
+    width:300px;     
+    font-size: 15px;
+    border:none;
+    border-bottom: 3px solid orangered;
+    text-align: center;
+    color: rgb(233, 73, 15);
+    outline: none;
+
+}
+.btn{
+    margin-left: 20px;
+} */
+
+.card{
+    background-color: blanchedalmond !important;
+ 
+}
+.chapters{
+    height: 100%;
+}
+
+.chapter_info{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: beige;
+    
+}
+.chapter_head{
+    background-color: rgb(250, 74, 10) ;  
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;    
+    padding: 30px;  
+    color: beige; 
+    
+
+}
+.chap_summary{
+    
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;    
+    padding: 30px;   
+    color:rgb(26, 24, 18);  
+    font-weight: 400;
+    background-image:linear-gradient(rgba(224, 238, 199, 0.8),rgba(224, 238, 199, 0.864)),url('../media/logo2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.knowmore{
+    font-size: 25px;
+    border-radius: 45px;
+    text-underline-offset:none ;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: auto;
+    width: 20vw;
+    margin-top: 10px;
+    color: white;
+    background-color: blueviolet;
+    text-decoration: none;
+}
+.main{
+
+}
+
+ @media screen  and (max-width:540px){
+
+.chap_summary{
+    
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;    
+    padding: 30px; 
+    background-size: cover;   
+    background-position: center; 
+    
+
+    
+}
+.chapter_head{
+    font-size: 20px;
+}
+ }
+    

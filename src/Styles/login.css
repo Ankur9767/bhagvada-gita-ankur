@@ -1,0 +1,173 @@
+*{
+    margin:0ex;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+    
+   
+}
+.wrap{
+    background-color: rgb(169, 245, 250);
+}
+/* .form_group{
+    background-color:white;
+    width: 440px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    margin-left: 3px;
+    border: 2px solid lightgrey;
+    padding-left: 20px;
+    
+    
+        
+} */
+label{
+    text-align: left;
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.card_login
+{
+    width: 448px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 40px 30px;
+    margin-top: 20px;
+    box-shadow: -3px -3px 9px #aaa9a9a2, 3px 3px 7px rgb(147 149 151 / 67%);
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+
+}
+.input_values{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.logo{
+    height: 100px;
+    
+    
+    
+}
+.signup{
+    font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 35px;
+  color: rgb(250, 141, 16);
+}
+.terms{
+    margin-left: -5px;
+    font-size: 15px;
+   
+    margin-top: 30px;
+
+}
+.input{
+    background-color: aliceblue;
+    width: 100%;
+    height: 31px;
+    padding: 3px 7px;
+    padding-top: 3px;
+    padding-right: 7px;
+    padding-bottom: 3px;
+    padding-left: 7px;
+    line-height: normal;
+    border-top-color: #949494;
+    border-top-style: solid;    
+    border-radius: 3px;
+    outline-width: 0px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+
+    
+}
+.register{
+    background-color: darkgray;
+    height:40px;
+    border: none;
+    border-radius: 3px;
+    width: 420px;
+    margin-top: 50px;
+}
+.login_btn{
+    height: 40px;
+    border-radius: 3px; 
+    width: 100%;
+    border: none;
+    overflow: hidden;
+    margin-right: 40px;
+    
+    
+}
+input:focus{
+    border-color: orangered;
+    
+    
+    }
+.reg_button{
+    
+    height: 40px;
+    border-radius: 3px; 
+    width: 100%;
+    border: none;
+    overflow: hidden;
+    margin-right: 40px;
+    background-color: rgba(143, 138, 138, 0.486);
+    margin-bottom: 30px;
+}
+.new{
+    width: 30%;
+}
+.line2{
+    width: 30%;
+}
+.dline{
+    display: flex;
+    flex-direction: row;
+}
+@media  screen and (max-width: 600px) {
+    .login{
+     margin-left: 0;
+     width:max-content;
+     margin-right: 20px; 
+     width: fit-content; 
+     margin-left: 10px;   
+        
+    }
+    input{
+    width: 200px;
+    border-color: gray;
+    outline: none;
+    height: 40px;
+    border-radius: 3px;    
+    border-color: 1px solid transparent;
+
+    } 
+    .card_login{
+        width: 90vw;
+        margin: auto;
+    }   
+    .form_group{
+        width: 88vw;
+        margin: auto;
+    }
+}

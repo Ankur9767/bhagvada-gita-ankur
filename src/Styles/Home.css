@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+*{
+    font-family: 'Luxurious Roman', cursive;
+    
+    
+}
+.home{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    
+    
+    
+  }
+  .banner{
+    margin-top: 50px;
+  }
+  
+  .base{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin: 20px;
+    padding: 20px;  
+    
+
+}
+.readmore{
+    border-radius: 5px;
+    background-color: rgba(255, 166, 0, 0.829);
+    border: 2px solid white;
+    width: 25%;
+    text-decoration: none;
+    color:white;
+    font-weight: 500;
+    margin-left: 150px;
+
+}
+.card-body{
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 5; /* number of lines to show */
+           line-clamp: 2; 
+   -webkit-box-orient: vertical;
+  
+}
+.card{
+ 
+    border: none;
+    margin-top:-20px;
+    margin-left:-20px;
+    margin-right:-20px;
+    margin-bottom: -20px;
+
+}
+.card-header{
+    text-align: left;
+    border: none;
+    background-color: rgb(248, 103, 51)
+}
+.chapterName{
+    color: rgb(237, 241, 241);
+    font-size: 25px;
+    font-weight: 600;
+
+}
+
+.card-footer{
+    border: none;
+   
+    
+}
+.mantra{
+    padding-top: 20px;
+    color: rgb(231, 52, 7);
+}
+.heading{
+    overflow-y: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    margin-top: -50px;
+}
+.heading1{
+    color:rgb(250, 241, 241);
+    font-weight: 500;
+}
+.heading2{
+    color: rgb(226, 141, 30);
+    font-weight: 500;
+}
+.img-rounded{ 
+    object-fit: cover;
+    z-index: -1;
+}
+@media screen and (max-width:600px){
+    .container{
+        display: flex;
+        flex-direction: column !important ;
+    }
+    .home{
+        width: 100%;
+    }
+}
+
+
+/* .landing_page{
+    
+        margin: auto;
+        width:max-content;
+        border: none;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        padding: 10px;
+       
+        margin-bottom: 20px;
+        margin-top: 10px;
+        color: white;
+              
+}
+.card{
+    background-color: rgb(255, 115, 0) !important;
+}
+.mantra{
+    color: rgb(233, 73, 15);
+    margin-top: 10px;
+}
+.card-header{
+    font-size: 20px;
+    font-weight: 600;
+}
+.card-text{
+    font-size: 20px;
+    font-weight: 500;
+}
+.link_chapter{
+    text-decoration: none;
+    
+    border-radius: 50%;
+    
+
+}
+.knowmore{
+    font-size: 25px;
+    border-radius: 45px;
+    border: 2px solid blueviolet;
+    width: fit-content;
+    margin: auto;
+    width: 20vw;
+    margin-top: 10px;
+    color: white;
+    background-color: blueviolet;
+}
+.knowmore:hover{
+    color: blueviolet;
+    border: 2px solid rgb(238, 106, 18);
+    background-color:  rgb(238, 106, 18,0.5) ;
+}
+@media screen and (max-width:600px){
+    
+    .landing_page{
+    
+        margin: auto;
+        width: 80%;
+        border: none;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        padding: 10px;
+        
+        margin-bottom: 20px;
+        margin-top: 10px;
+        font-weight: 600;
+      
+}
+.knowmore{
+    font-size: 15px;
+    border-radius: 45px;
+    border: 2px solid blueviolet;
+    width: max-content;
+    margin: auto;
+    width: 50vw;
+    margin-top: 10px;
+}
+.knowmore:hover{
+    color: blueviolet;
+    border: 2px solid rgb(238, 106, 18);
+    background-color:  rgb(238, 106, 18,0.5) ;
+}
+} */
