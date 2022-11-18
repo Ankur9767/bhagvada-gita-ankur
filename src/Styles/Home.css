@@ -85,6 +85,7 @@
 .heading1{
     color:rgb(250, 241, 241);
     font-weight: 500;
+    
 }
 .heading2{
     color: rgb(226, 141, 30);
@@ -94,6 +95,9 @@
     object-fit: cover;
     z-index: -1;
 }
+.banner{
+    opacity: 0.9;
+}
 @media screen and (max-width:600px){
     .container{
         display: flex;
@@ -101,6 +105,25 @@
     }
     .home{
         width: 100%;
+    }
+    .readmore{
+        display: none;
+    }
+    .banner{
+        width: -webkit-fill-available;
+    }
+    .heading1{
+        color:rgb(250, 241, 241);
+        font-weight: 500;
+        font-size: small;
+    }
+    .heading2{
+        color: rgb(226, 141, 30);
+        font-weight: 500;
+        font-size: small;
+    }
+    .heading{
+        transform: translate(-80%, -190%);
     }
 }
 

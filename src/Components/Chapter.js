@@ -100,7 +100,16 @@ const Chapter = () => {
                         <p className="chap_summary  container-sm ">{chap.chapter_summary}  <br /><br />
                         {chap.chapter_summary_hindi}
                         <div className="container d-flex flex-row justify-content-between flex-row-reverse">
-                     <Link className="link_chapter mb-5" to={`/verse/${chap.chapter_number}`}>
+                     <Link classname="lch" to={`/verse/${chap.chapter_number}`}
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                     
+                      >
                       <p className="knowmore">Go to verses</p>
                     </Link>
                     <div className="group">

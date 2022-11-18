@@ -11,7 +11,7 @@ function About() {
     <Header />
       <div className="container">
       <div className="images">
-      <img className="image1"  src={img1}  />  
+      <img className="img-fluid" alt="Responsive image"  src={img1}  />  
             </div>
         <div className="container body">
           <h2 className="what"> &gt; What is Bhagwat Geeta ?</h2>
@@ -54,7 +54,7 @@ aspects.
         </div>
             </div>
             <div className="images">
-             <img className="image1"  src={img2}  />  
+             <img className="img-fluid" alt="Responsive image"  src={img2}  />  
           </div>
            <div className="container body">
           <h2 className="what"> &gt; Synthesis of Living beings, Food & Medicine</h2>
@@ -92,7 +92,7 @@ science, he described in the below verses of Bhagavad Gita.
           </p>
         </div>
         <div className="images">
-             <img className="image1"  src={img3}  />  
+             <img className="img-fluid" alt="Responsive image"  src={img3}  />  
           </div>
            <div className="container body">
           <h2 className="what"> &gt; Creation of Universe</h2>

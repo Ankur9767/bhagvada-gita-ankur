@@ -48,6 +48,7 @@ const Verses = () => {
     
     return (
         <div>
+        <Header />
         <div className="mantra"><h2> ||ॐ नमो भगवते वासुदेवाय नमः ||</h2></div>
                  
          <div className='chapter'>
@@ -59,7 +60,7 @@ const Verses = () => {
            <div className="container d-flex flex-column">
            <h3 className="top">{use.slug}</h3>          
              
-            <div className="summary container-sm card-body">
+            <div className="summary">
             <p className="translation">{use["translations"]["0"]["description"]}</p>
             <p className="author"> Written by:{use["translations"]["0"]["author_name"]}</p>
              <p className="translation">{use["translations"]["1"]["description"]}</p>

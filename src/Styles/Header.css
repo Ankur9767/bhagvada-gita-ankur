@@ -81,7 +81,9 @@
 
 
   */
-
+nav{
+  position: absolute;
+}
   .logo{
     height: 70px !important;
     border: 3px solid rgb(171, 37, 233);
@@ -122,4 +124,11 @@
   }
   .navbar-nav{
     margin-left: 300px;
+  }
+  @media screen and (max-width:600px){
+    .navbar-nav{
+      margin-left: auto;
+      background-color: antiquewhite;
+
+    }
   }

@@ -60,11 +60,16 @@
 .knowmore{
     font-size: 25px;
     border-radius: 45px;
-    text-underline-offset:none ;
-    width: -moz-fit-content;
     width: fit-content;
     margin: auto;
-    width: 20vw;
+   margin-bottom: 10px
+   
+   
+   
+   
+    
+   
+    ;
     margin-top: 10px;
     color: white;
     background-color: blueviolet;
